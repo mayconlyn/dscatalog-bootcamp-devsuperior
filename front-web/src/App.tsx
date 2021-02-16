@@ -1,11 +1,13 @@
 import React from 'react'
+import './core/assets/styles/custom.scss';
+import './app.scss';
+import Navbar from './core/assets/styles/components/Navbar';
 
 const App = () => {
     
 return (
-    <h1>App</h1>
+    <Navbar />
 );
-
 }
 
 export default App;
